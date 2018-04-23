@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)onlick{
-    NSString * strURL = @"11111://";
+    NSString * strURL = @"11111://ccccc";
     NSURL * url = [NSURL URLWithString:strURL];
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
         [[UIApplication sharedApplication] openURL:url];
